@@ -1,0 +1,1905 @@
+{
+  "startNodeID": "root",
+  "nodes": [
+    {
+      "id": "root",
+      "question": "asian or american?",
+      "alternativeNodeID": "root_alt1",
+      "choices": [
+        {
+          "label": "Asian",
+          "nextNodeID": "asian_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "American",
+          "nextNodeID": "american_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "root_alt1",
+      "question": "what sounds better right now?",
+      "alternativeNodeID": "root_alt2",
+      "choices": [
+        {
+          "label": "Mexican",
+          "nextNodeID": "mexican_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Italian",
+          "nextNodeID": "italian_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "root_alt2",
+      "question": "what sounds better right now?",
+      "alternativeNodeID": "root_alt3",
+      "choices": [
+        {
+          "label": "Mediterranean",
+          "nextNodeID": "mediterranean_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Indian",
+          "nextNodeID": "indian_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "root_alt3",
+      "question": "what sounds better right now?",
+      "alternativeNodeID": "root_alt4",
+      "choices": [
+        {
+          "label": "Breakfast / brunch",
+          "nextNodeID": "breakfast_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Desserts / cafes",
+          "nextNodeID": "desserts_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "root_alt4",
+      "question": "what sounds better right now?",
+      "alternativeNodeID": "root_alt5",
+      "choices": [
+        {
+          "label": "BBQ",
+          "nextNodeID": "bbq_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Seafood",
+          "nextNodeID": "seafood_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "root_alt5",
+      "question": "what sounds better right now?",
+      "alternativeNodeID": "root_alt6",
+      "choices": [
+        {
+          "label": "Pizza",
+          "nextNodeID": "pizza_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Burgers",
+          "nextNodeID": "burgers_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "root_alt6",
+      "question": "what sounds better right now?",
+      "alternativeNodeID": "root_alt7",
+      "choices": [
+        {
+          "label": "Greek",
+          "nextNodeID": "greek_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Middle Eastern",
+          "nextNodeID": "middleeastern_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "root_alt7",
+      "question": "what sounds better right now?",
+      "alternativeNodeID": "root_alt8",
+      "choices": [
+        {
+          "label": "Thai",
+          "nextNodeID": "thai_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Vietnamese",
+          "nextNodeID": "vietnamese_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "root_alt8",
+      "question": "what sounds better right now?",
+      "alternativeNodeID": "root_alt9",
+      "choices": [
+        {
+          "label": "Cajun / Creole",
+          "nextNodeID": "cajun_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Soul food",
+          "nextNodeID": "soulfood_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "root_alt9",
+      "question": "what sounds better right now?",
+      "alternativeNodeID": "root_alt10",
+      "choices": [
+        {
+          "label": "Caribbean",
+          "nextNodeID": "caribbean_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Hawaiian",
+          "nextNodeID": "hawaiian_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "root_alt10",
+      "question": "what sounds better right now?",
+      "alternativeNodeID": "root_alt11",
+      "choices": [
+        {
+          "label": "Tapas / small plates",
+          "nextNodeID": "tapas_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Steakhouses",
+          "nextNodeID": "steakhouse_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "root_alt11",
+      "question": "what sounds better right now?",
+      "alternativeNodeID": "root_alt12",
+      "choices": [
+        {
+          "label": "Vegan",
+          "nextNodeID": "vegan_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Vegetarian",
+          "nextNodeID": "vegetarian_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "root_alt12",
+      "question": "what sounds better right now?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "Ethiopian",
+          "nextNodeID": "ethiopian_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Halal",
+          "nextNodeID": "halal_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "asian_1",
+      "question": "korean or japanese?",
+      "alternativeNodeID": "asian_2",
+      "choices": [
+        {
+          "label": "Korean",
+          "nextNodeID": "korean_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Japanese",
+          "nextNodeID": "japanese_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "asian_2",
+      "question": "thai or vietnamese?",
+      "alternativeNodeID": "asian_3",
+      "choices": [
+        {
+          "label": "Thai",
+          "nextNodeID": "thai_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Vietnamese",
+          "nextNodeID": "vietnamese_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "asian_3",
+      "question": "chinese or filipino?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "Chinese",
+          "nextNodeID": "chinese_mood",
+          "resultCuisine": null
+        },
+        {
+          "label": "Filipino",
+          "nextNodeID": "filipino_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "chinese_mood",
+      "question": "are you feeling something meaty, soupy, or light?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "Meaty",
+          "nextNodeID": "chinese_meaty_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Soupy",
+          "nextNodeID": "chinese_soupy_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Light",
+          "nextNodeID": "chinese_light_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "chinese_meaty_1",
+      "question": "pick one:",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "xiao long bao (soup dumplings)",
+          "nextNodeID": null,
+          "resultCuisine": "Dim Sum"
+        },
+        {
+          "label": "orange chicken",
+          "nextNodeID": null,
+          "resultCuisine": "Chinese American"
+        },
+        {
+          "label": "kung pao chicken",
+          "nextNodeID": null,
+          "resultCuisine": "Chinese Stir Fry"
+        },
+        {
+          "label": "char siu pork",
+          "nextNodeID": null,
+          "resultCuisine": "Chinese BBQ"
+        }
+      ]
+    },
+    {
+      "id": "chinese_soupy_1",
+      "question": "which soup sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "hot pot",
+          "nextNodeID": null,
+          "resultCuisine": "Hot Pot"
+        },
+        {
+          "label": "beef noodle soup",
+          "nextNodeID": null,
+          "resultCuisine": "Chinese Noodles"
+        },
+        {
+          "label": "wonton soup",
+          "nextNodeID": null,
+          "resultCuisine": "Chinese Wonton Soup"
+        }
+      ]
+    },
+    {
+      "id": "chinese_light_1",
+      "question": "what kind of lighter chinese?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "congee",
+          "nextNodeID": null,
+          "resultCuisine": "Congee"
+        },
+        {
+          "label": "stir-fried veggies & tofu",
+          "nextNodeID": null,
+          "resultCuisine": "Chinese Veggie Plates"
+        },
+        {
+          "label": "cold sesame noodles",
+          "nextNodeID": null,
+          "resultCuisine": "Chinese Cold Noodles"
+        }
+      ]
+    },
+    {
+      "id": "filipino_1",
+      "question": "what sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "adobo",
+          "nextNodeID": null,
+          "resultCuisine": "Filipino - Adobo"
+        },
+        {
+          "label": "silog breakfast plates",
+          "nextNodeID": null,
+          "resultCuisine": "Filipino - Silog"
+        },
+        {
+          "label": "lechon & crispy pork",
+          "nextNodeID": null,
+          "resultCuisine": "Filipino - Lechon"
+        }
+      ]
+    },
+    {
+      "id": "korean_1",
+      "question": "korean bbq or stews?",
+      "alternativeNodeID": "korean_2",
+      "choices": [
+        {
+          "label": "Korean BBQ",
+          "nextNodeID": null,
+          "resultCuisine": "Korean BBQ"
+        },
+        {
+          "label": "Stews / home-style",
+          "nextNodeID": "korean_stews_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "korean_2",
+      "question": "korean fried chicken or street food?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "Korean fried chicken",
+          "nextNodeID": null,
+          "resultCuisine": "Korean Fried Chicken"
+        },
+        {
+          "label": "Tteokbokki & street snacks",
+          "nextNodeID": null,
+          "resultCuisine": "Korean Street Food"
+        }
+      ]
+    },
+    {
+      "id": "korean_stews_1",
+      "question": "which stew sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "kimchi jjigae",
+          "nextNodeID": null,
+          "resultCuisine": "Korean - Kimchi Stew"
+        },
+        {
+          "label": "soondubu (soft tofu stew)",
+          "nextNodeID": null,
+          "resultCuisine": "Korean - Soondubu"
+        },
+        {
+          "label": "army stew (budae jjigae)",
+          "nextNodeID": null,
+          "resultCuisine": "Korean - Army Stew"
+        }
+      ]
+    },
+    {
+      "id": "japanese_1",
+      "question": "sushi or ramen?",
+      "alternativeNodeID": "japanese_2",
+      "choices": [
+        {
+          "label": "Sushi",
+          "nextNodeID": "japanese_sushi_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Ramen / udon",
+          "nextNodeID": "japanese_ramen_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "japanese_2",
+      "question": "katsu curry or donburi?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "katsu curry",
+          "nextNodeID": null,
+          "resultCuisine": "Japanese Curry"
+        },
+        {
+          "label": "donburi bowls",
+          "nextNodeID": null,
+          "resultCuisine": "Japanese Donburi"
+        }
+      ]
+    },
+    {
+      "id": "japanese_sushi_1",
+      "question": "what kind of sushi?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "nigiri & sashimi",
+          "nextNodeID": null,
+          "resultCuisine": "Sushi - Nigiri & Sashimi"
+        },
+        {
+          "label": "rolls & specialty rolls",
+          "nextNodeID": null,
+          "resultCuisine": "Sushi - Rolls"
+        },
+        {
+          "label": "omakase / sushi bar",
+          "nextNodeID": null,
+          "resultCuisine": "Sushi - Omakase"
+        }
+      ]
+    },
+    {
+      "id": "japanese_ramen_1",
+      "question": "what kind of ramen?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "tonkotsu (pork broth)",
+          "nextNodeID": null,
+          "resultCuisine": "Ramen - Tonkotsu"
+        },
+        {
+          "label": "shoyu / shio ramen",
+          "nextNodeID": null,
+          "resultCuisine": "Ramen - Shoyu/Shio"
+        },
+        {
+          "label": "tsukemen or specialty noodles",
+          "nextNodeID": null,
+          "resultCuisine": "Ramen - Specialty"
+        }
+      ]
+    },
+    {
+      "id": "american_1",
+      "question": "burgers or comfort food?",
+      "alternativeNodeID": "american_2",
+      "choices": [
+        {
+          "label": "Burgers / fast food",
+          "nextNodeID": "burgers_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Diner / comfort",
+          "nextNodeID": "american_comfort_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "american_2",
+      "question": "pizza or fried chicken?",
+      "alternativeNodeID": "american_3",
+      "choices": [
+        {
+          "label": "Pizza",
+          "nextNodeID": "pizza_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Fried chicken",
+          "nextNodeID": "friedchicken_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "american_3",
+      "question": "bbq or breakfast / brunch?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "BBQ",
+          "nextNodeID": "bbq_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Breakfast / brunch",
+          "nextNodeID": "breakfast_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "american_comfort_1",
+      "question": "what kind of comfort food?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "chicken fried steak & gravy",
+          "nextNodeID": null,
+          "resultCuisine": "American Comfort - Chicken Fried Steak"
+        },
+        {
+          "label": "meatloaf & mashed potatoes",
+          "nextNodeID": null,
+          "resultCuisine": "American Comfort - Meatloaf"
+        },
+        {
+          "label": "mac & cheese plates",
+          "nextNodeID": null,
+          "resultCuisine": "American Comfort - Mac & Cheese"
+        }
+      ]
+    },
+    {
+      "id": "mexican_1",
+      "question": "what kind of mexican?",
+      "alternativeNodeID": "mexican_2",
+      "choices": [
+        {
+          "label": "tacos & burritos",
+          "nextNodeID": "mexican_tacos_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "plates / combos",
+          "nextNodeID": "mexican_plates_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "mexican_2",
+      "question": "snacks or street food?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "elote & street corn",
+          "nextNodeID": null,
+          "resultCuisine": "Mexican - Elote & Street Corn"
+        },
+        {
+          "label": "nachos & loaded fries",
+          "nextNodeID": null,
+          "resultCuisine": "Mexican - Nachos & Fries"
+        }
+      ]
+    },
+    {
+      "id": "mexican_tacos_1",
+      "question": "which tacos & burritos?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "street tacos (asada, pastor)",
+          "nextNodeID": null,
+          "resultCuisine": "Mexican - Street Tacos"
+        },
+        {
+          "label": "mission-style burritos",
+          "nextNodeID": null,
+          "resultCuisine": "Mexican - Burritos"
+        },
+        {
+          "label": "quesabirria tacos",
+          "nextNodeID": null,
+          "resultCuisine": "Mexican - Quesabirria"
+        },
+        {
+          "label": "California burritos",
+          "nextNodeID": null,
+          "resultCuisine": "Mexican - California Burritos"
+        }
+      ]
+    },
+    {
+      "id": "mexican_plates_1",
+      "question": "which plates / combos?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "enchilada plates",
+          "nextNodeID": null,
+          "resultCuisine": "Mexican - Enchiladas"
+        },
+        {
+          "label": "fajita skillets",
+          "nextNodeID": null,
+          "resultCuisine": "Mexican - Fajitas"
+        },
+        {
+          "label": "carne asada plates",
+          "nextNodeID": null,
+          "resultCuisine": "Mexican - Carne Asada"
+        },
+        {
+          "label": "mole chicken plates",
+          "nextNodeID": null,
+          "resultCuisine": "Mexican - Mole"
+        }
+      ]
+    },
+    {
+      "id": "italian_1",
+      "question": "what kind of italian?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "Pizza",
+          "nextNodeID": "italian_pizza_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "Pasta",
+          "nextNodeID": "italian_pasta_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "italian_pizza_1",
+      "question": "which pizza vibe?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "neapolitan / margherita",
+          "nextNodeID": null,
+          "resultCuisine": "Pizza - Neapolitan"
+        },
+        {
+          "label": "NY-style slice",
+          "nextNodeID": null,
+          "resultCuisine": "Pizza - NY Slice"
+        },
+        {
+          "label": "deep dish",
+          "nextNodeID": null,
+          "resultCuisine": "Pizza - Deep Dish"
+        },
+        {
+          "label": "thin & crispy",
+          "nextNodeID": null,
+          "resultCuisine": "Pizza - Thin & Crispy"
+        }
+      ]
+    },
+    {
+      "id": "italian_pasta_1",
+      "question": "which pasta sounds best?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "spaghetti & meatballs",
+          "nextNodeID": null,
+          "resultCuisine": "Pasta - Spaghetti & Meatballs"
+        },
+        {
+          "label": "fettuccine alfredo",
+          "nextNodeID": null,
+          "resultCuisine": "Pasta - Fettuccine Alfredo"
+        },
+        {
+          "label": "lasagna",
+          "nextNodeID": null,
+          "resultCuisine": "Pasta - Lasagna"
+        },
+        {
+          "label": "carbonara",
+          "nextNodeID": null,
+          "resultCuisine": "Pasta - Carbonara"
+        },
+        {
+          "label": "penne alla vodka",
+          "nextNodeID": null,
+          "resultCuisine": "Pasta - Penne alla Vodka"
+        },
+        {
+          "label": "pesto pasta",
+          "nextNodeID": null,
+          "resultCuisine": "Pasta - Pesto"
+        }
+      ]
+    },
+    {
+      "id": "mediterranean_1",
+      "question": "what sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "gyros & wraps",
+          "nextNodeID": "mediterranean_gyros_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "bowls & kebab plates",
+          "nextNodeID": "mediterranean_bowls_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "mediterranean_gyros_1",
+      "question": "which gyro vibe?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "chicken gyros",
+          "nextNodeID": null,
+          "resultCuisine": "Mediterranean - Chicken Gyros"
+        },
+        {
+          "label": "lamb / beef gyros",
+          "nextNodeID": null,
+          "resultCuisine": "Mediterranean - Lamb Gyros"
+        },
+        {
+          "label": "falafel wraps",
+          "nextNodeID": null,
+          "resultCuisine": "Mediterranean - Falafel Wraps"
+        }
+      ]
+    },
+    {
+      "id": "mediterranean_bowls_1",
+      "question": "which bowl / plate?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "shawarma bowls",
+          "nextNodeID": null,
+          "resultCuisine": "Mediterranean - Shawarma Bowls"
+        },
+        {
+          "label": "kebab plates",
+          "nextNodeID": null,
+          "resultCuisine": "Mediterranean - Kebab Plates"
+        },
+        {
+          "label": "hummus & mezze platters",
+          "nextNodeID": null,
+          "resultCuisine": "Mediterranean - Mezze Platters"
+        }
+      ]
+    },
+    {
+      "id": "indian_1",
+      "question": "what sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "curries & naan",
+          "nextNodeID": "indian_curries_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "tandoori / grilled",
+          "nextNodeID": "indian_tandoori_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "indian_curries_1",
+      "question": "which curry sounds best?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "butter chicken / tikka masala",
+          "nextNodeID": null,
+          "resultCuisine": "Indian Curries - Butter Chicken"
+        },
+        {
+          "label": "saag paneer / spinach curries",
+          "nextNodeID": null,
+          "resultCuisine": "Indian Curries - Saag"
+        },
+        {
+          "label": "vindaloo / spicy curries",
+          "nextNodeID": null,
+          "resultCuisine": "Indian Curries - Vindaloo"
+        }
+      ]
+    },
+    {
+      "id": "indian_tandoori_1",
+      "question": "which tandoori / grilled?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "tandoori chicken",
+          "nextNodeID": null,
+          "resultCuisine": "Indian Tandoori - Chicken"
+        },
+        {
+          "label": "tikka kebabs",
+          "nextNodeID": null,
+          "resultCuisine": "Indian Tandoori - Kebabs"
+        },
+        {
+          "label": "mixed grill platters",
+          "nextNodeID": null,
+          "resultCuisine": "Indian Tandoori - Mixed Grill"
+        }
+      ]
+    },
+    {
+      "id": "breakfast_1",
+      "question": "sweet or savory breakfast?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "pancakes & waffles",
+          "nextNodeID": "breakfast_sweet_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "eggs & bacon plates",
+          "nextNodeID": "breakfast_savory_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "breakfast_sweet_1",
+      "question": "which sweet breakfast?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "pancakes stacks",
+          "nextNodeID": null,
+          "resultCuisine": "Breakfast - Pancakes"
+        },
+        {
+          "label": "waffles with toppings",
+          "nextNodeID": null,
+          "resultCuisine": "Breakfast - Waffles"
+        },
+        {
+          "label": "french toast",
+          "nextNodeID": null,
+          "resultCuisine": "Breakfast - French Toast"
+        }
+      ]
+    },
+    {
+      "id": "breakfast_savory_1",
+      "question": "which savory breakfast?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "classic eggs, bacon & toast",
+          "nextNodeID": null,
+          "resultCuisine": "Breakfast - Egg Plates"
+        },
+        {
+          "label": "breakfast burritos",
+          "nextNodeID": null,
+          "resultCuisine": "Breakfast - Burritos"
+        },
+        {
+          "label": "omelettes & skillets",
+          "nextNodeID": null,
+          "resultCuisine": "Breakfast - Omelettes"
+        }
+      ]
+    },
+    {
+      "id": "desserts_1",
+      "question": "what sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "boba / cafe drinks",
+          "nextNodeID": "desserts_boba_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "ice cream & baked sweets",
+          "nextNodeID": "desserts_sweets_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "desserts_boba_1",
+      "question": "which cafe vibe?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "milk tea / boba",
+          "nextNodeID": null,
+          "resultCuisine": "Cafes & Boba - Milk Tea"
+        },
+        {
+          "label": "coffee & espresso drinks",
+          "nextNodeID": null,
+          "resultCuisine": "Cafes & Boba - Coffee"
+        },
+        {
+          "label": "dessert cafes & shaved ice",
+          "nextNodeID": null,
+          "resultCuisine": "Dessert Cafes - Shaved Ice"
+        }
+      ]
+    },
+    {
+      "id": "desserts_sweets_1",
+      "question": "which dessert sounds best?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "ice cream / gelato",
+          "nextNodeID": null,
+          "resultCuisine": "Desserts - Ice Cream"
+        },
+        {
+          "label": "cakes & pastries",
+          "nextNodeID": null,
+          "resultCuisine": "Desserts - Cakes & Pastries"
+        },
+        {
+          "label": "cookies & brownies",
+          "nextNodeID": null,
+          "resultCuisine": "Desserts - Cookies & Brownies"
+        }
+      ]
+    },
+    {
+      "id": "bbq_1",
+      "question": "what kind of bbq?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "brisket & ribs",
+          "nextNodeID": "bbq_ribs_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "pulled pork & sandwiches",
+          "nextNodeID": "bbq_pulled_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "bbq_ribs_1",
+      "question": "which bbq plate?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "brisket plates",
+          "nextNodeID": null,
+          "resultCuisine": "BBQ - Brisket"
+        },
+        {
+          "label": "pork ribs plates",
+          "nextNodeID": null,
+          "resultCuisine": "BBQ - Ribs"
+        },
+        {
+          "label": "sampler platters",
+          "nextNodeID": null,
+          "resultCuisine": "BBQ - Sampler"
+        }
+      ]
+    },
+    {
+      "id": "bbq_pulled_1",
+      "question": "which pulled pork vibe?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "pulled pork sandwiches",
+          "nextNodeID": null,
+          "resultCuisine": "BBQ - Pulled Pork Sandwiches"
+        },
+        {
+          "label": "pulled pork plates",
+          "nextNodeID": null,
+          "resultCuisine": "BBQ - Pulled Pork Plates"
+        }
+      ]
+    },
+    {
+      "id": "seafood_1",
+      "question": "fried or grilled seafood?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "fried seafood baskets",
+          "nextNodeID": "seafood_fried_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "grilled / raw / poke",
+          "nextNodeID": "seafood_grilled_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "seafood_fried_1",
+      "question": "which fried seafood?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "fish & chips",
+          "nextNodeID": null,
+          "resultCuisine": "Seafood - Fish & Chips"
+        },
+        {
+          "label": "fried shrimp baskets",
+          "nextNodeID": null,
+          "resultCuisine": "Seafood - Fried Shrimp"
+        },
+        {
+          "label": "seafood platters",
+          "nextNodeID": null,
+          "resultCuisine": "Seafood - Fried Platters"
+        }
+      ]
+    },
+    {
+      "id": "seafood_grilled_1",
+      "question": "which seafood style?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "poke bowls",
+          "nextNodeID": null,
+          "resultCuisine": "Seafood - Poke"
+        },
+        {
+          "label": "grilled fish plates",
+          "nextNodeID": null,
+          "resultCuisine": "Seafood - Grilled Fish"
+        },
+        {
+          "label": "oysters / raw bar",
+          "nextNodeID": null,
+          "resultCuisine": "Seafood - Raw Bar"
+        }
+      ]
+    },
+    {
+      "id": "pizza_1",
+      "question": "what kind of pizza spot?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "local slice shop",
+          "nextNodeID": null,
+          "resultCuisine": "Pizza - Slice Shops"
+        },
+        {
+          "label": "chain / fast pizza",
+          "nextNodeID": null,
+          "resultCuisine": "Pizza - Chain"
+        },
+        {
+          "label": "artisan / wood-fired",
+          "nextNodeID": null,
+          "resultCuisine": "Pizza - Artisan"
+        }
+      ]
+    },
+    {
+      "id": "burgers_1",
+      "question": "what kind of burgers?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "smash burgers",
+          "nextNodeID": null,
+          "resultCuisine": "Burgers - Smash"
+        },
+        {
+          "label": "thick / gourmet burgers",
+          "nextNodeID": null,
+          "resultCuisine": "Burgers - Gourmet"
+        },
+        {
+          "label": "fast food classics",
+          "nextNodeID": null,
+          "resultCuisine": "Burgers - Fast Food"
+        }
+      ]
+    },
+    {
+      "id": "greek_1",
+      "question": "what sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "gyros & wraps",
+          "nextNodeID": "greek_gyros_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "plates & bowls",
+          "nextNodeID": "greek_plates_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "greek_gyros_1",
+      "question": "which gyro?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "chicken gyro",
+          "nextNodeID": null,
+          "resultCuisine": "Greek - Chicken Gyro"
+        },
+        {
+          "label": "lamb / beef gyro",
+          "nextNodeID": null,
+          "resultCuisine": "Greek - Lamb Gyro"
+        }
+      ]
+    },
+    {
+      "id": "greek_plates_1",
+      "question": "which plate?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "souvlaki / skewers",
+          "nextNodeID": null,
+          "resultCuisine": "Greek - Souvlaki"
+        },
+        {
+          "label": "moussaka / baked dishes",
+          "nextNodeID": null,
+          "resultCuisine": "Greek - Moussaka"
+        }
+      ]
+    },
+    {
+      "id": "middleeastern_1",
+      "question": "what sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "falafel & pita",
+          "nextNodeID": "middleeastern_falafel_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "kebabs & rice plates",
+          "nextNodeID": "middleeastern_kebabs_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "middleeastern_falafel_1",
+      "question": "which falafel vibe?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "falafel wraps",
+          "nextNodeID": null,
+          "resultCuisine": "Middle Eastern - Falafel Wraps"
+        },
+        {
+          "label": "falafel plates",
+          "nextNodeID": null,
+          "resultCuisine": "Middle Eastern - Falafel Plates"
+        }
+      ]
+    },
+    {
+      "id": "middleeastern_kebabs_1",
+      "question": "which kebab plate?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "chicken shawarma plates",
+          "nextNodeID": null,
+          "resultCuisine": "Middle Eastern - Shawarma Plates"
+        },
+        {
+          "label": "mixed kebab platters",
+          "nextNodeID": null,
+          "resultCuisine": "Middle Eastern - Mixed Kebabs"
+        }
+      ]
+    },
+    {
+      "id": "thai_1",
+      "question": "curries or noodles?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "thai curries",
+          "nextNodeID": "thai_curries_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "pad thai / noodles",
+          "nextNodeID": "thai_noodles_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "thai_curries_1",
+      "question": "which curry?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "green curry",
+          "nextNodeID": null,
+          "resultCuisine": "Thai - Green Curry"
+        },
+        {
+          "label": "red curry",
+          "nextNodeID": null,
+          "resultCuisine": "Thai - Red Curry"
+        },
+        {
+          "label": "panang / massaman",
+          "nextNodeID": null,
+          "resultCuisine": "Thai - Panang/Massaman"
+        }
+      ]
+    },
+    {
+      "id": "thai_noodles_1",
+      "question": "which noodles?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "pad thai",
+          "nextNodeID": null,
+          "resultCuisine": "Thai - Pad Thai"
+        },
+        {
+          "label": "pad see ew / drunken noodles",
+          "nextNodeID": null,
+          "resultCuisine": "Thai - Pad See Ew"
+        },
+        {
+          "label": "boat noodles / specialty",
+          "nextNodeID": null,
+          "resultCuisine": "Thai - Specialty Noodles"
+        }
+      ]
+    },
+    {
+      "id": "vietnamese_1",
+      "question": "pho or banh mi?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "pho / noodle soup",
+          "nextNodeID": "vietnamese_pho_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "banh mi / rice plates",
+          "nextNodeID": "vietnamese_banhmi_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "vietnamese_pho_1",
+      "question": "which pho?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "rare steak pho",
+          "nextNodeID": null,
+          "resultCuisine": "Vietnamese - Pho Tai"
+        },
+        {
+          "label": "combo / everything pho",
+          "nextNodeID": null,
+          "resultCuisine": "Vietnamese - Pho Dac Biet"
+        },
+        {
+          "label": "chicken pho",
+          "nextNodeID": null,
+          "resultCuisine": "Vietnamese - Pho Ga"
+        }
+      ]
+    },
+    {
+      "id": "vietnamese_banhmi_1",
+      "question": "which banh mi / plate?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "banh mi sandwiches",
+          "nextNodeID": null,
+          "resultCuisine": "Vietnamese - Banh Mi"
+        },
+        {
+          "label": "rice / vermicelli plates",
+          "nextNodeID": null,
+          "resultCuisine": "Vietnamese - Rice & Vermicelli Plates"
+        }
+      ]
+    },
+    {
+      "id": "cajun_1",
+      "question": "what sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "gumbo / jambalaya",
+          "nextNodeID": "cajun_gumbo_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "po'boys & fried seafood",
+          "nextNodeID": "cajun_poboys_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "cajun_gumbo_1",
+      "question": "which hearty dish?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "seafood gumbo",
+          "nextNodeID": null,
+          "resultCuisine": "Cajun & Creole - Seafood Gumbo"
+        },
+        {
+          "label": "chicken & sausage gumbo",
+          "nextNodeID": null,
+          "resultCuisine": "Cajun & Creole - Chicken Gumbo"
+        },
+        {
+          "label": "jambalaya",
+          "nextNodeID": null,
+          "resultCuisine": "Cajun & Creole - Jambalaya"
+        }
+      ]
+    },
+    {
+      "id": "cajun_poboys_1",
+      "question": "which po'boy?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "shrimp po'boys",
+          "nextNodeID": null,
+          "resultCuisine": "Cajun & Creole - Shrimp Po'boy"
+        },
+        {
+          "label": "oyster po'boys",
+          "nextNodeID": null,
+          "resultCuisine": "Cajun & Creole - Oyster Po'boy"
+        }
+      ]
+    },
+    {
+      "id": "soulfood_1",
+      "question": "what sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "fried chicken & waffles",
+          "nextNodeID": "soulfood_chicken_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "bbq & sides",
+          "nextNodeID": "soulfood_bbq_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "soulfood_chicken_1",
+      "question": "which fried chicken plate?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "chicken & waffles",
+          "nextNodeID": null,
+          "resultCuisine": "Soul Food - Chicken & Waffles"
+        },
+        {
+          "label": "fried chicken plates",
+          "nextNodeID": null,
+          "resultCuisine": "Soul Food - Fried Chicken Plates"
+        }
+      ]
+    },
+    {
+      "id": "soulfood_bbq_1",
+      "question": "which bbq plate?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "ribs & mac",
+          "nextNodeID": null,
+          "resultCuisine": "Soul Food - Ribs & Mac"
+        },
+        {
+          "label": "pulled pork & greens",
+          "nextNodeID": null,
+          "resultCuisine": "Soul Food - Pulled Pork & Greens"
+        }
+      ]
+    },
+    {
+      "id": "caribbean_1",
+      "question": "what sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "jerk chicken",
+          "nextNodeID": "caribbean_jerk_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "curries / stews",
+          "nextNodeID": "caribbean_curries_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "caribbean_jerk_1",
+      "question": "which jerk plate?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "jerk chicken plates",
+          "nextNodeID": null,
+          "resultCuisine": "Caribbean - Jerk Chicken"
+        },
+        {
+          "label": "jerk pork / combo plates",
+          "nextNodeID": null,
+          "resultCuisine": "Caribbean - Jerk Combos"
+        }
+      ]
+    },
+    {
+      "id": "caribbean_curries_1",
+      "question": "which curry / stew?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "oxtail plates",
+          "nextNodeID": null,
+          "resultCuisine": "Caribbean - Oxtail"
+        },
+        {
+          "label": "goat curry plates",
+          "nextNodeID": null,
+          "resultCuisine": "Caribbean - Goat Curry"
+        }
+      ]
+    },
+    {
+      "id": "hawaiian_1",
+      "question": "poke or plate lunch?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "poke",
+          "nextNodeID": "hawaiian_poke_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "plate lunch",
+          "nextNodeID": "hawaiian_plate_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "hawaiian_poke_1",
+      "question": "which poke bowl?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "classic ahi poke",
+          "nextNodeID": null,
+          "resultCuisine": "Hawaiian - Ahi Poke"
+        },
+        {
+          "label": "mixed seafood poke",
+          "nextNodeID": null,
+          "resultCuisine": "Hawaiian - Mixed Poke"
+        }
+      ]
+    },
+    {
+      "id": "hawaiian_plate_1",
+      "question": "which plate lunch?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "loco moco",
+          "nextNodeID": null,
+          "resultCuisine": "Hawaiian - Loco Moco"
+        },
+        {
+          "label": "bbq chicken / kalbi",
+          "nextNodeID": null,
+          "resultCuisine": "Hawaiian - BBQ Plate Lunch"
+        }
+      ]
+    },
+    {
+      "id": "tapas_1",
+      "question": "what sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "spanish tapas",
+          "nextNodeID": "tapas_spanish_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "gastropub small plates",
+          "nextNodeID": "tapas_gastropub_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "tapas_spanish_1",
+      "question": "which spanish tapas?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "patatas bravas & croquetas",
+          "nextNodeID": null,
+          "resultCuisine": "Tapas - Patatas & Croquetas"
+        },
+        {
+          "label": "charcuterie & cheeses",
+          "nextNodeID": null,
+          "resultCuisine": "Tapas - Charcuterie"
+        }
+      ]
+    },
+    {
+      "id": "tapas_gastropub_1",
+      "question": "which gastropub vibe?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "sliders & wings",
+          "nextNodeID": null,
+          "resultCuisine": "Tapas - Sliders & Wings"
+        },
+        {
+          "label": "fancy small plates",
+          "nextNodeID": null,
+          "resultCuisine": "Tapas - Chef Small Plates"
+        }
+      ]
+    },
+    {
+      "id": "steakhouse_1",
+      "question": "what sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "classic steakhouse",
+          "nextNodeID": "steakhouse_classic_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "brazilian rodizio",
+          "nextNodeID": "steakhouse_rodizio_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "steakhouse_classic_1",
+      "question": "which steak cut?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "ribeye",
+          "nextNodeID": null,
+          "resultCuisine": "Steakhouse - Ribeye"
+        },
+        {
+          "label": "filet mignon",
+          "nextNodeID": null,
+          "resultCuisine": "Steakhouse - Filet"
+        },
+        {
+          "label": "NY strip",
+          "nextNodeID": null,
+          "resultCuisine": "Steakhouse - NY Strip"
+        }
+      ]
+    },
+    {
+      "id": "steakhouse_rodizio_1",
+      "question": "which rodizio vibe?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "all-you-can-eat churrasco",
+          "nextNodeID": null,
+          "resultCuisine": "Brazilian Steakhouse - Churrasco"
+        },
+        {
+          "label": "rodizio + salad bar",
+          "nextNodeID": null,
+          "resultCuisine": "Brazilian Steakhouse - Rodizio & Salad Bar"
+        }
+      ]
+    },
+    {
+      "id": "vegan_1",
+      "question": "what sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "bowls & salads",
+          "nextNodeID": "vegan_bowls_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "vegan burgers & fast food",
+          "nextNodeID": "vegan_fast_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "vegan_bowls_1",
+      "question": "which vegan bowl?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "grain & veggie bowls",
+          "nextNodeID": null,
+          "resultCuisine": "Vegan - Grain Bowls"
+        },
+        {
+          "label": "poke-style vegan bowls",
+          "nextNodeID": null,
+          "resultCuisine": "Vegan - Poke Bowls"
+        }
+      ]
+    },
+    {
+      "id": "vegan_fast_1",
+      "question": "which vegan fast food?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "vegan burgers",
+          "nextNodeID": null,
+          "resultCuisine": "Vegan - Burgers"
+        },
+        {
+          "label": "vegan chicken / tenders",
+          "nextNodeID": null,
+          "resultCuisine": "Vegan - Chicken"
+        }
+      ]
+    },
+    {
+      "id": "vegetarian_1",
+      "question": "what sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "salads & grain bowls",
+          "nextNodeID": "vegetarian_bowls_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "comfort food plates",
+          "nextNodeID": "vegetarian_comfort_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "vegetarian_bowls_1",
+      "question": "which veggie bowl?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "Mediterranean veggie bowls",
+          "nextNodeID": null,
+          "resultCuisine": "Vegetarian - Med Bowls"
+        },
+        {
+          "label": "Asian-inspired veggie bowls",
+          "nextNodeID": null,
+          "resultCuisine": "Vegetarian - Asian Bowls"
+        }
+      ]
+    },
+    {
+      "id": "vegetarian_comfort_1",
+      "question": "which comfort plate?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "veggie burgers & fries",
+          "nextNodeID": null,
+          "resultCuisine": "Vegetarian - Burgers"
+        },
+        {
+          "label": "pasta & cheesy bakes",
+          "nextNodeID": null,
+          "resultCuisine": "Vegetarian - Pasta Bakes"
+        }
+      ]
+    },
+    {
+      "id": "ethiopian_1",
+      "question": "what sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "injera platters",
+          "nextNodeID": null,
+          "resultCuisine": "Ethiopian - Injera Platters"
+        },
+        {
+          "label": "veggie combo",
+          "nextNodeID": null,
+          "resultCuisine": "Ethiopian - Veggie Combo"
+        }
+      ]
+    },
+    {
+      "id": "halal_1",
+      "question": "what sounds better?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "halal plates over rice",
+          "nextNodeID": "halal_plates_1",
+          "resultCuisine": null
+        },
+        {
+          "label": "wraps & sandwiches",
+          "nextNodeID": "halal_wraps_1",
+          "resultCuisine": null
+        }
+      ]
+    },
+    {
+      "id": "halal_plates_1",
+      "question": "which halal plate?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "chicken over rice",
+          "nextNodeID": null,
+          "resultCuisine": "Halal - Chicken Over Rice"
+        },
+        {
+          "label": "lamb / gyro over rice",
+          "nextNodeID": null,
+          "resultCuisine": "Halal - Lamb Over Rice"
+        },
+        {
+          "label": "mixed combo plate",
+          "nextNodeID": null,
+          "resultCuisine": "Halal - Mixed Plate"
+        }
+      ]
+    },
+    {
+      "id": "halal_wraps_1",
+      "question": "which wrap?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "gyro wraps",
+          "nextNodeID": null,
+          "resultCuisine": "Halal - Gyro Wraps"
+        },
+        {
+          "label": "chicken shawarma wraps",
+          "nextNodeID": null,
+          "resultCuisine": "Halal - Shawarma Wraps"
+        }
+      ]
+    },
+    {
+      "id": "friedchicken_1",
+      "question": "which fried chicken?",
+      "alternativeNodeID": null,
+      "choices": [
+        {
+          "label": "southern fried chicken",
+          "nextNodeID": null,
+          "resultCuisine": "Fried Chicken - Southern"
+        },
+        {
+          "label": "hot chicken / spicy",
+          "nextNodeID": null,
+          "resultCuisine": "Fried Chicken - Hot Chicken"
+        },
+        {
+          "label": "chicken tenders & strips",
+          "nextNodeID": null,
+          "resultCuisine": "Fried Chicken - Tenders"
+        }
+      ]
+    }
+  ]
+}
