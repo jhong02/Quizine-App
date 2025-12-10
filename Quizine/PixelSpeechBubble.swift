@@ -8,7 +8,7 @@ struct PixelSpeechBubble: View {
 
     var body: some View {
         Text(text)
-            .font(.system(size: 15, weight: .regular))
+            .font(.system(size: 25, weight: .regular))
             .foregroundColor(Color.black.opacity(0.85))
             .multilineTextAlignment(.center)
             .lineLimit(nil)

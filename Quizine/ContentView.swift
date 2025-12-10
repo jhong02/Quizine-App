@@ -3,214 +3,171 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack {
-            ZStack {
-                // Soft Wii / aero gradient background
-                LinearGradient(
-                    colors: [
-                        Color(red: 0.60, green: 0.90, blue: 1.0),
-                        Color(red: 0.35, green: 0.80, blue: 0.95),
-                        Color(red: 0.25, green: 0.75, blue: 0.80)
-                    ],
-                    startPoint: .top,
-                    endPoint: .bottom
-                )
-                .ignoresSafeArea()
+            WiiHomeScreen()
+                .toolbar(.hidden, for: .navigationBar)
+        }
+    }
+}
 
-                // Slight bokeh blobs
+// MARK: - Main Wii Home Screen
+
+struct WiiHomeScreen: View {
+    private let accentBlue = Color(red: 94/255, green: 184/255, blue: 212/255)
+
+    var body: some View {
+        ZStack {
+            ScanlineBackground()
+
+            VStack(spacing: 0) {
+                // TOP: title + chevrons
                 ZStack {
-                    Circle()
-                        .fill(Color.white.opacity(0.35))
-                        .blur(radius: 28)
-                        .frame(width: 180, height: 180)
-                        .offset(x: -110, y: -260)
+                    HStack {
+                        Button(action: {
+                            // left page action (optional)
+                        }) {
+                            Image(systemName: "chevron.left")
+                                .font(.system(size: 34, weight: .heavy))
+                                .foregroundColor(accentBlue)
+                        }
 
-                    Circle()
-                        .fill(Color.white.opacity(0.25))
-                        .blur(radius: 24)
-                        .frame(width: 150, height: 150)
-                        .offset(x: 130, y: -120)
+                        Spacer()
 
-                    Circle()
-                        .fill(Color.white.opacity(0.22))
-                        .blur(radius: 30)
-                        .frame(width: 220, height: 220)
-                        .offset(x: 90, y: 260)
+                        Button(action: {
+                            // right page action (optional)
+                        }) {
+                            Image(systemName: "chevron.right")
+                                .font(.system(size: 34, weight: .heavy))
+                                .foregroundColor(accentBlue)
+                        }
+                    }
+
+                    WiiTitleText("Quizine", outlineColor: accentBlue)
                 }
+                .padding(.horizontal, 24)
+                .frame(maxHeight: .infinity)
 
-                // Wii-style central panel
-                VStack(spacing: 18) {
-
-                    WiiTitlePill(text: "quizine")
-
-                    Text("tap in and let leche guess your cravings")
-                        .font(.system(size: 14, weight: .regular))
-                        .foregroundColor(Color.black.opacity(0.6))
-                        .multilineTextAlignment(.center)
-                        .padding(.horizontal, 8)
-
-                    VStack(spacing: 14) {
+                // BOTTOM: buttons + settings
+                ZStack(alignment: .bottomLeading) {
+                    VStack(spacing: 16) {
                         NavigationLink(destination: StartView()) {
                             Text("Start")
                                 .frame(maxWidth: .infinity)
                         }
-                        .buttonStyle(WiiPrimaryButtonStyle())
+                        .buttonStyle(WiiMenuButtonStyle(accentBlue: accentBlue))
+                        .frame(width: 260)
 
                         NavigationLink(destination: AboutView()) {
                             Text("About")
                                 .frame(maxWidth: .infinity)
                         }
-                        .buttonStyle(WiiSecondaryButtonStyle())
+                        .buttonStyle(WiiMenuButtonStyle(accentBlue: accentBlue))
+                        .frame(width: 260)
                     }
-                    .padding(.horizontal, 4)
-                    .padding(.bottom, 4)
+                    .frame(maxWidth: .infinity, alignment: .center)
+
+                    Button {
+                        // settings action (later)
+                    } label: {
+                        Image(systemName: "gearshape.fill")
+                            .font(.system(size: 18, weight: .bold))
+                            .foregroundColor(.white)
+                            .frame(width: 40, height: 40)
+                            .background(Color(red: 0.42, green: 0.42, blue: 0.42))
+                            .clipShape(Circle())
+                    }
+                    .padding(.leading, 24)
+                    .padding(.bottom, 18)
                 }
-                .padding(.horizontal, 22)
-                .padding(.vertical, 20)
-                .background(
-                    RoundedRectangle(cornerRadius: 26, style: .continuous)
-                        .fill(
-                            LinearGradient(
-                                colors: [
-                                    Color.white,
-                                    Color(red: 0.96, green: 0.98, blue: 1.0)
-                                ],
-                                startPoint: .top,
-                                endPoint: .bottom
-                            )
-                        )
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 26, style: .continuous)
-                                .stroke(Color.black.opacity(0.08), lineWidth: 1)
-                        )
-                        .shadow(color: .black.opacity(0.25), radius: 14, x: 0, y: 10)
-                )
-                .padding(.horizontal, 32)
+                .padding(.bottom, 24)
             }
+            .frame(maxWidth: 430)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
     }
 }
 
-// MARK: - Wii Components
+// MARK: - Title with Wii-style outline
 
-struct WiiTitlePill: View {
+struct WiiTitleText: View {
     let text: String
+    let outlineColor: Color
+
+    init(_ text: String, outlineColor: Color) {
+        self.text = text
+        self.outlineColor = outlineColor
+    }
 
     var body: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .fill(
-                    LinearGradient(
-                        colors: [
-                            Color(red: 0.93, green: 0.98, blue: 1.0),
-                            Color(red: 0.80, green: 0.92, blue: 1.0)
-                        ],
-                        startPoint: .top,
-                        endPoint: .bottom
-                    )
-                )
-                .overlay(
-                    RoundedRectangle(cornerRadius: 24, style: .continuous)
-                        .stroke(
-                            LinearGradient(
-                                colors: [
-                                    Color.white.opacity(0.9),
-                                    Color.black.opacity(0.15)
-                                ],
-                                startPoint: .top,
-                                endPoint: .bottom
-                            ),
-                            lineWidth: 1
-                        )
-                )
-                .shadow(color: .black.opacity(0.18), radius: 8, x: 0, y: 4)
-
-            Text(text)
-                .font(.system(size: 24, weight: .semibold))
-                .foregroundColor(Color.black.opacity(0.8))
-        }
-        .frame(height: 52)
-        .padding(.horizontal, 8)
+        Text(text)
+            .font(.system(size: 56, weight: .bold, design: .rounded))
+            .tracking(2)
+            .foregroundColor(.white)
+            // fake outline
+            .shadow(color: outlineColor, radius: 0, x: 0, y: 0)
+            .shadow(color: outlineColor, radius: 0, x: 3, y: 0)
+            .shadow(color: outlineColor, radius: 0, x: -3, y: 0)
+            .shadow(color: outlineColor, radius: 0, x: 0, y: 3)
+            .shadow(color: outlineColor, radius: 0, x: 0, y: -3)
+            // drop shadow
+            .shadow(color: .black.opacity(0.3), radius: 12, x: 0, y: 6)
     }
 }
 
-// Big blue Wii-style button
-struct WiiPrimaryButtonStyle: ButtonStyle {
+// MARK: - Button style
+
+struct WiiMenuButtonStyle: ButtonStyle {
+    let accentBlue: Color
+
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .font(.system(size: 17, weight: .semibold))
-            .padding(.vertical, 10)
+            .font(.system(size: 18, weight: .semibold))
+            .foregroundColor(Color(red: 0.29, green: 0.29, blue: 0.29))
+            .padding(.vertical, 14)
             .padding(.horizontal, 12)
             .background(
-                ZStack {
-                    RoundedRectangle(cornerRadius: 22, style: .continuous)
-                        .fill(
-                            LinearGradient(
-                                colors: [
-                                    Color(red: 0.68, green: 0.91, blue: 1.0),
-                                    Color(red: 0.18, green: 0.55, blue: 1.0)
-                                ],
-                                startPoint: .top,
-                                endPoint: .bottom
-                            )
-                        )
-
-                    RoundedRectangle(cornerRadius: 22, style: .continuous)
-                        .fill(
-                            LinearGradient(
-                                colors: [
-                                    Color.white.opacity(0.85),
-                                    Color.white.opacity(0.0)
-                                ],
-                                startPoint: .top,
-                                endPoint: .center
-                            )
-                        )
-                        .padding(.horizontal, 2)
-                        .padding(.top, 2)
-                }
+                LinearGradient(
+                    gradient: Gradient(colors: [Color.white,
+                                                Color(red: 0.91, green: 0.91, blue: 0.91)]),
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
             )
             .overlay(
-                RoundedRectangle(cornerRadius: 22, style: .continuous)
-                    .stroke(Color.white.opacity(0.9), lineWidth: 1)
+                Capsule()
+                    .stroke(accentBlue, lineWidth: 3)
             )
-            .foregroundColor(.white)
-            .shadow(color: .black.opacity(0.25), radius: 9, x: 0, y: 6)
-            .scaleEffect(configuration.isPressed ? 0.97 : 1.0)
-            .opacity(configuration.isPressed ? 0.92 : 1.0)
+            .clipShape(Capsule())
+            .shadow(color: .black.opacity(0.2), radius: 8, x: 0, y: 4)
+            .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
+            .animation(.spring(response: 0.25, dampingFraction: 0.7), value: configuration.isPressed)
     }
 }
 
-// Grey "Cancel" style button
-struct WiiSecondaryButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .font(.system(size: 15, weight: .regular))
-            .padding(.vertical, 9)
-            .padding(.horizontal, 12)
-            .background(
-                RoundedRectangle(cornerRadius: 20, style: .continuous)
-                    .fill(
-                        LinearGradient(
-                            colors: [
-                                Color(red: 0.97, green: 0.98, blue: 0.99),
-                                Color(red: 0.87, green: 0.90, blue: 0.93)
-                            ],
-                            startPoint: .top,
-                            endPoint: .bottom
-                        )
-                    )
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 20, style: .continuous)
-                            .stroke(Color.black.opacity(0.1), lineWidth: 1)
-                    )
-            )
-            .foregroundColor(Color.black.opacity(0.75))
-            .shadow(color: .black.opacity(0.20), radius: 6, x: 0, y: 4)
-            .scaleEffect(configuration.isPressed ? 0.97 : 1.0)
-            .opacity(configuration.isPressed ? 0.93 : 1.0)
+// MARK: - Scanline background
+
+struct ScanlineBackground: View {
+    var body: some View {
+        ZStack {
+            Color(red: 0.91, green: 0.91, blue: 0.91)
+                .ignoresSafeArea()
+
+            Canvas { context, size in
+                let stripeHeight: CGFloat = 2
+                var y: CGFloat = 0
+                let stripeColor = Color(red: 0.87, green: 0.87, blue: 0.87)
+
+                while y < size.height {
+                    let rect = CGRect(x: 0, y: y, width: size.width, height: 1)
+                    context.fill(Path(rect), with: .color(stripeColor))
+                    y += stripeHeight
+                }
+            }
+            .ignoresSafeArea()
+        }
     }
 }
 
+// keep your existing AboutView (unchanged)
 struct AboutView: View {
     var body: some View {
         VStack(spacing: 16) {
