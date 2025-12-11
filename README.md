@@ -1,21 +1,14 @@
-# Food Guesser (iOS)
+# Quizine (iOS)
 
-Food Guesser is a small iOS app built with SwiftUI. Instead of scrolling through a giant list of restaurants, you answer a quick quiz hosted by a 3D cat named Leche. The app narrows down what you’re craving (like Korean BBQ, ramen, burgers, etc.) and shows a simple result screen.
+Quizine is a small iOS app built with SwiftUI. Instead of scrolling through a giant list of restaurants, you answer a quick quiz hosted by a 3D cat named Leche. The app narrows down what you’re craving (like Korean BBQ, ramen, burgers, etc.) and shows a simple result screen.
 
 I modeled and animated Leche in Blender, rendered the animation as a video, and used that as the background for the quiz.
 
 ---
 
 ## Screenshots
-
-<p align="center">
-  <img src="Screenshots/result_korean_bbq.png" width="250" alt="Result screen - Korean BBQ" />
-  <img src="Screenshots/home_quizine.png" width="250" alt="Home screen - Quizine" />
-</p>
-<p align="center">
-  <img src="Screenshots/intro_leche.png" width="250" alt="Intro screen - Leche introducing the app" />
-  <img src="Screenshots/question_asian_american.png" width="250" alt="Question screen - Asian or American" />
-</p>
+![1](https://github.com/user-attachments/assets/fe0a2ad7-9c58-42c9-a44a-907463f5140a)
+![3](https://github.com/user-attachments/assets/0211d242-6148-4168-bc79-4f933d6fdbba)
 
 ---
 
